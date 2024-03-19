@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>JHAB-Play</title>
+</head>
+<body>
+    <div class="music-container">
+        <div id="logo">
+            <img class="logo" src="./images/JHAB-Play(logonobg).png" alt="">
+        </div>
+        <h4 id="playlist-title">~~Hear and Chill~~</h4>
+        <div class="discCover">
+            <img id="cover" alt="discCover">
+        </div>
+        <audio id="audio" ></audio>
+        <div id="below-cover">
+            <div id="song-info">   
+                <div id="song-name"></div>
+                <div id="band-name" class="light-color"></div>
+            </div>
+            <div id="like" class="button light-color"><i class="bi bi-heart"></i></div>
+        </div>
+        <div id="progress-container">
+            <div id="progress-bar">
+                <div id="current-progress"></div>
+            </div>
+                <div id="time-box">
+                    <div id="song-time">00:00:00</div>
+                    <div id="total-time">00:00:00</div>
+                </div>
+        </div>
+        <div id="button-container">
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play-pause" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

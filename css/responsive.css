@@ -1,0 +1,39 @@
+@media (max-width: 400px) {
+    .logo{
+        width: 115px;
+        height: 35px;
+    }
+
+    #playlist-title{
+        font-size: small;
+    }
+
+    .music-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    #song-info{
+        font-size: medium;
+    }
+
+    #time-box{
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 210px) {
+    #logo {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo{
+        width: 90px;
+        height: 25px;
+    }
+
+    #shuffle,#repeat {
+        overflow: hidden;
+    }
+}
