@@ -1,132 +1,129 @@
-body{
-    background-image: linear-gradient(
-        #242424,
-        #696969
-    );
-    height: 100vh;
-    color: lightgreen;
-    font-family:sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  background-image: linear-gradient(#242424, #696969);
+  height: 100vh;
+  color: lightgreen;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#logo{
-    display: flex;
-    width: 100%;
-    height: 40px;
-    position: relative;
+#logo {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  position: relative;
 }
 
 .logo {
-    width: 150px;
+  width: 150px;
 }
 
 .discCover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-#cover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: relative;
+#cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
 }
 
-.music-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
-    height: 100vh;
-    margin-top: 3px;
-    overflow: hidden;
+.music-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 100vh;
+  margin-top: 3px;
+  overflow: hidden;
 }
 
-#playlist-title{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1em 0 2em 0;
+#playlist-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 0 2em 0;
 }
 
-#below-cover{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2em 0 1em 0;
-    max-width: 100%;
+#below-cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0 1em 0;
+  max-width: 100%;
 }
 
-#song-info{
-    display: flex;
-    flex-direction: column;
+#song-info {
+  display: flex;
+  flex-direction: column;
 }
-#song-name{
-    font-size: 1.5em;
-    font-weight: bolder;
+#song-name {
+  font-size: 1.5em;
+  font-weight: bolder;
 }
-.light-color{
-    color: rgb(107, 141, 113);
-}
-
-#progress-bar{
-    background-color: rgb(120, 132, 134);
-    height: 3px;
-    width: 100%;
-    border-radius: 15px;
+.light-color {
+  color: rgb(107, 141, 113);
 }
 
-#current-progress{
-    --progress: 0%;
-    background-color: plum;
-    height: inherit;
-    width: var(--progress);
-    border-radius: inherit;
+#progress-bar {
+  background-color: rgb(120, 132, 134);
+  height: 3px;
+  width: 100%;
+  border-radius: 15px;
 }
 
-#progress-container{
-    cursor: pointer;
+#current-progress {
+  --progress: 0%;
+  background-color: plum;
+  height: inherit;
+  width: var(--progress);
+  border-radius: inherit;
 }
 
-.button-active{
-    color: rgb(100, 6, 132);
+#progress-container {
+  cursor: pointer;
 }
 
-#time-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: smaller;
-    margin-top: 0.5em;
+.button-active {
+  color: rgb(100, 6, 132);
 }
 
-#button-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+#time-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  margin-top: 0.5em;
 }
 
-button{
-    background-color: inherit;
-    color: inherit;
-    border: none;
-    cursor: pointer;
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.button{
-    font-size: 1.5em;
-    cursor: pointer;
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
 }
-.button-navigate{
-    font-size: 3em;
+
+.button {
+  font-size: 1.5em;
+  cursor: pointer;
 }
-.button-biggest{
-    font-size: 4em;
+.button-navigate {
+  font-size: 3em;
+}
+.button-biggest {
+  font-size: 4em;
 }
