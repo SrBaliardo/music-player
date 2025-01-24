@@ -1,4 +1,4 @@
-# JHAB-Play is a personal music player for listening and relaxing. You can put your favorite songs on it.
+# JHAB-Play é um reprodutor de música pessoal para ouvir e relaxar. Você pode colocar suas músicas favoritas nele.
 
 - Você pode ouvir em ordem ou pressionar o botão para ouvir em ordem aleatória.
 - Você pode pressionar o botão para repetir seus favoritos.
